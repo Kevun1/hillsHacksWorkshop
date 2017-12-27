@@ -35,7 +35,12 @@ This should open up a window.
 
 - *A bunch of red text means an error*
 
-- *If a command doesn't finish executing (for example, with a infinite loop), you can use CTRL+C to break out of it*
+- *If a command doesn't finish executing (for example, with a infinite loop), you can use CTRL+C to break out of it (for Windows, at least). Alternatively, restart IDLE, and retype the two lines above to open the turtle window again*
+
+- *If someone exits out of the turtle window, they will have to restart IDLE and retype the above two lines. Otherwise, if they attempt to create a new window, they'll get a bunch of errors*
+
+
+---introduce turtle------------------------------------
 
 ### Turtle Basics
 
@@ -61,13 +66,39 @@ Show examples of commands
 
 Show examples of commands
 
-##### First Exercise
+***
+
+##### Exercise 1
 
 Tell people to make a staircase, like this:
 
-![staircase](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/images/staircase.PNG)
+<img src="https://github.com/Kevun1/hillsHacksWorkshop/blob/master/images/staircase.PNG" width="360">
 
+*\(show the image to everyone)*
 
+The solution is:
 
+```python
+t.left(90)
+t.forward(50)
+t.right(90)
+t.forward(50)
+t.left(90)
+t.forward(50)
+t.right(90)
+t.forward(50)
+```
+
+*Note: The 50 is the length of each segment, which can be replaced with any number*
+
+***
+
+This seems pretty simple so far, but from these basic commands -------
+
+##### Exercise 2
+
+Now, tell people to make a square, like this (make sure to do `t.reset()`!):
+
+<img src="https://github.com/Kevun1/hillsHacksWorkshop/blob/master/images/square.PNG" width="360">
 
 
