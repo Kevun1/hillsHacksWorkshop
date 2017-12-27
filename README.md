@@ -2,6 +2,8 @@
 
 ### Introduction
 
+
+
 ##### Installation
 
 Go to this URL: https://www.python.org/downloads/, and click on "Download Python 3.6.4" Make sure it's Python 3 and not Python 2. Even if people already have Python, tell them to do it anyway to make sure everyone is using the same version.
