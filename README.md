@@ -65,6 +65,8 @@ Show examples of commands
 
 Tell people to make a staircase, like this:
 
+![staircase](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/images/staircase.PNG)
+
 
 
 
