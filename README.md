@@ -2,6 +2,6 @@
 
 ###Turtle Basics
 
-- 'forward()', 'back()'
-- 'reset()'
-- 'left()','right()'
+- `forward()`, `back()`
+- `reset()`
+- `left()`,`right()`
