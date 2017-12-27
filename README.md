@@ -22,14 +22,17 @@ Open the downloaded file, and then click next at every step.
 
 The program people should open is called "IDLE," which should've been automatically downloaded
 
-Type these two lines into IDLE. 
+Type these two lines into IDLE. *No explanation is needed yet, tell everyone this is just part of the setup in order to begin.*
 ```python
 from turtle import *
 t = Turtle()
 ```
 This should open up a window.
 
-*No explanation is needed yet, tell everyone this is just part of the setup in order to begin.*
+
+***Open up IDLE and project it onto the board. Every time there is a code snippet, type it out yourself so it is projected on the board, so other people can follow***
+
+***
 
 ##### *General notes for IDLE:*
 
@@ -39,6 +42,7 @@ This should open up a window.
 
 - *If someone exits out of the turtle window, they will have to restart IDLE and retype the above two lines. Otherwise, if they attempt to create a new window, they'll get a bunch of errors*
 
+***
 
 ---introduce turtle------------------------------------
 
@@ -97,8 +101,70 @@ This seems pretty simple so far, but from these basic commands -------
 
 ##### Exercise 2
 
-Now, tell people to make a square, like this (make sure to do `t.reset()`!):
+Now, make a square, like this (make sure to do `t.reset()`!):
 
 <img src="https://github.com/Kevun1/hillsHacksWorkshop/blob/master/images/square.PNG" width="360">
+
+The solution is:
+
+```python
+t.forward(50)
+t.left(90)
+t.forward(50)
+t.left(90)
+t.forward(50)
+t.left(90)
+t.forward(50)
+t.left(90)
+```
+
+That seems rather repetitive, doesn't it? Notice that it's just the same bit of code repeated four times. Namely:
+
+```python
+t.forward(50)
+t.left(90)
+```
+
+However, there's a shorter way to express that than just repeating it over and over again. In IDLE, type
+
+```python
+for i in range(4):
+    t.forward(50)
+    t.left(90)
+```
+
+*Tell people to follow along and type it out before explaining. Make sure to note the indents (1 tab or 4 spaces) and the colon, or else they'll get a syntax error. IDLE automatically indents for you, but not every editor will do it automatically*
+
+### The For Loop
+
+What you just typed was called a **for loop**. Basically, a loop is when a bit of code is repeated multiple times. What you coded basically functions like this:
+
+```python
+repeat 4 times:
+    t.forward(50)
+    t.left(90)
+```
+
+However, instead of repeat 4 times, you have to type `for i in range(4):`
+
+*The exact syntax of the for loop will be deconstructed a bit later*
+
+So, when do you use a for loop? Whenever you are typing the same code over and over again in a row. 
+
+Here's another application. Back to the staircase example, what if you wanted to make the staircase longer? Remember, with two "stairs" the code was like this:
+
+```python
+t.left(90)
+t.forward(50)
+t.right(90)
+t.forward(50)
+t.left(90)
+t.forward(50)
+t.right(90)
+t.forward(50)
+```
+
+
+
 
 
