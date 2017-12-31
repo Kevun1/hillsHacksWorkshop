@@ -70,11 +70,13 @@ Show examples of commands
 
 Show examples of commands
 
+This seems pretty simple so far, but from these basic commands -------
+
 ***
 
-##### Exercise 1
+##### Exercises
 
-Tell people to make a staircase, like this:
+Make a staircase, like this:
 
 <img src="https://github.com/Kevun1/hillsHacksWorkshop/blob/master/images/staircase.PNG" width="360">
 
@@ -95,11 +97,6 @@ t.forward(50)
 
 *Note: The 50 is the length of each segment, which can be replaced with any number*
 
-***
-
-This seems pretty simple so far, but from these basic commands -------
-
-##### Exercise 2
 
 Now, make a square, like this (make sure to do `t.reset()`!):
 
@@ -118,6 +115,55 @@ t.forward(50)
 t.left(90)
 ```
 
+Note that there are multiple ways to do this. For example, you could've turned left at the beginning and have drawn the square clockwise. Often with programming, there are many ways to do the same problem. 
+
+Finally, make an arrow, like this:
+
+<img src="https://github.com/Kevun1/hillsHacksWorkshop/blob/master/images/arrow.PNG" width="360">
+
+The solution is:
+
+```python
+t.forward(50)
+t.left(90+45)
+t.forward(25)
+t.back(25)
+t.left(90)
+t.forward(25)
+```
+
+Note: there are even more ways to have draw this arrow. This was just one possible solution
+
+### Variables
+
+So far, in these examples I've been using 50 as the "standard" length of a segment. But what if I wanted to draw a square with side lengths of 100 or 6 or 512.3? Of course, I would just change out the 50 for some other number. This is fine in IDLE, where each statement you type is executed immediately, but usually, programmers write out multiple lines in a file and then execute everything at once. So if you had code like:
+
+```python
+t.forward(50)
+t.left(90)
+t.forward(50)
+t.left(90)
+t.forward(50)
+t.left(90)
+t.forward(50)
+t.left(90)
+```
+
+and you wanted to change the 50 to another number, you would have to go to each instance where there is a 50 and replace it with a different number. In an actual program, there could be hundreds of different instances that you would have to replace. Furthermore, it's not clear what the number "50" represents in isolation. Sure, this particular code is simple and you can tell it's the side length of a square, but you can imagine if you're looking at a full computer program and you see the number 50 randomly in there, you can't tell what it does. That makes editing your program very difficult.
+
+The solution is something called variables. In IDLE, type
+
+```python
+x = 50
+t.forward(x)
+```
+
+
+
+***
+
+### The For Loop
+
 That seems rather repetitive, doesn't it? Notice that it's just the same bit of code repeated four times. Namely:
 
 ```python
@@ -134,8 +180,6 @@ for i in range(4):
 ```
 
 *Tell people to follow along and type it out before explaining. Make sure to note the indents (1 tab or 4 spaces) and the colon, or else they'll get a syntax error. IDLE automatically indents for you, but not every editor will do it automatically*
-
-### The For Loop
 
 What you just typed was called a **for loop**. Basically, a loop is when a bit of code is repeated multiple times. What you coded basically functions like this:
 
@@ -189,5 +233,5 @@ The for loop is actually more useful than repeating consequtive bits of code. Ho
 
 ### Variables
 
-
+Let's say 
 
