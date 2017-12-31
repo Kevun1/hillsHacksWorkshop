@@ -69,6 +69,16 @@ x = 100
 
 and the rest of the code automatically updates. No need for changing numbers in four different places. Of course again, in IDLE, since statements are executed line by line only once, you do actually have to type everything out again but if this were a single document, like code is usually in, you wouldn't have to do so.
 
+But remember that variables are also used to give random values meaning and make code more readable. `x` hardly makes any more sense than `50`. It's a poor choice for a variable name. A better variable name would be:
+
+```python
+side_length = 50
+
+t.forward(side_length)
+
+[...]
+```
+
 
 
 ***
