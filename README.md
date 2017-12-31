@@ -162,5 +162,5 @@ t.forward(x)
 
 ***
 
-[#Next](https://github.com/Kevun1/hillsHacksWorkshop/master/pages/forloop.md)
+#[Next](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/forloop.md)
 
