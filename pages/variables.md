@@ -79,7 +79,9 @@ t.forward(side_length)
 [...]
 ```
 
+##### Modifying Variables
 
+Before we continue with Turtle, it's important to 
 
 ***
 
