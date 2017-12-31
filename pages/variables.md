@@ -23,6 +23,52 @@ x = 50
 t.forward(x)
 ```
 
+In this case, `x` is a variable. Variables basically stand in for some kind of value. In this case, `x` stands in for 50, so every time you type `x` in your code, it really stands for 50. 
+
+But you don't have to call it `x`. You can call it whatever you want, with some constraints. For example:
+
+```python
+y = 500
+t.back(y)
+
+asdf = 33.2
+t.right(asdf)
+
+this_is_a_variable = 9999
+t.left(this_is_a_variable)
+
+numbers123 = 55
+t.forward(numbers123)
+```
+
+Variables in Python can be named anything, as long as it starts with a underscore or letter and contains only letters numbers and underscores. So variables can contain numbers as long as they don't start with them, and they can't have symbols in them.
+
+So why use variables again?
+
+Well, you can now rewrite the square code like this:
+
+
+```python
+x = 50
+
+t.forward(x)
+t.left(90)
+t.forward(x)
+t.left(90)
+t.forward(x)
+t.left(90)
+t.forward(x)
+t.left(90)
+```
+
+So now if you instead want to have a square that is of side length 100, all you have to do is type
+
+```python
+x = 100
+```
+
+and the rest of the code automatically updates. No need for changing numbers in four different places. Of course again, in IDLE, since statements are executed line by line only once, you do actually have to type everything out again but if this were a single document, like code is usually in, you wouldn't have to do so.
+
 
 
 ***
