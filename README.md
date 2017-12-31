@@ -162,6 +162,8 @@ t.forward(x)
 
 ***
 
+[Next](https://github.com/Kevun1/hillsHacksWorkshop/edit/master/pages/forloop.md)
+
 ### The For Loop
 
 That seems rather repetitive, doesn't it? Notice that it's just the same bit of code repeated four times. Namely:
