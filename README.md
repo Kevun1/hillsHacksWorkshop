@@ -164,6 +164,27 @@ t.right(90)
 t.forward(50)
 ```
 
+But if you look closer, this code is actually repeated:
+
+```python
+t.left(90)
+t.forward(50)
+t.right(90)
+t.forward(50)
+```
+
+This code creates one "step" on the staircase. If you wanted a longer stair case, it would just mean more steps, meaning just repeating that piece of code over and over again. This is when the for loop comes in. So, for 5 steps in the staircase, the code is:
+
+```python
+for i in range(5):
+    t.left(90)
+    t.forward(50)
+    t.right(90)
+    t.forward(50)
+```
+
+Notice how much longer it would be if you had to write that out five times over. 
+
 
 
 
