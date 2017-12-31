@@ -185,7 +185,9 @@ for i in range(5):
 
 Notice how much longer it would be if you had to write that out five times over. 
 
+The for loop is actually more useful than repeating consequtive bits of code. However, we'll get to that a bit later.
 
+### Variables
 
 
 
