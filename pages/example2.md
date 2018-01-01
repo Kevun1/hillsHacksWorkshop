@@ -1,5 +1,7 @@
 ### Example 2
 
+Again, let's apply everything we learned to a new problem.
+
 Let's design a program where a user can specify a direction, like north, south, east, or west, and then the turtle draws an arrow in that direction. 
 
 First, we need to get user input of what direction they want the turtle to draw in. 
@@ -14,7 +16,7 @@ Now, what do we do? We already know how to draw an arrow, but depending on how t
 
 If the user types in north, we want to draw an arrow facing north. If the user types in south, we want to draw an arrow facing south. And so on. Alternatively, we also have to account for the situation where the user might type in some nonsense that's not a direction at all. 
 
-Whenever you have a situation, like this, when the execution of a program can go multiple paths depending on the situation, we use an **if statement**. It's basically a direct translation of what we described above into code.
+Whenever you have a situation, like this, when the execution of a program can go multiple paths depending on the situation, we use an if statement. It's basically a direct translation of what we described above into code.
 
 ```python
 if direction == "north":
@@ -32,7 +34,7 @@ So this code translates to: if the `direction` variable (which refers to the use
 
 Note that we use two equal signs `==` for equals. This is because one equals sign `=` means variable assignment, when we set a variable equal to some value. It's extremely important that in if statements you use two equals signs, it's a very common mistake to only use one equals sign, which is an error in python. 
 
-Now, we have the north condition settled, we have to account for all the other possible inputs. We can use multiple if statements:
+Now, we have the north condition settled, we have to account for all the other possible inputs. We can use multiple elif cases:
 
 ```python
 elif direction == "south":
@@ -67,7 +69,7 @@ If the user types in `"north"`, `"south"`, `"east"`, and `"west"`, your program 
 
 ```python
 else:
-    print("Please type in a valid direction")
+    print("Not a valid direction")
 ```
 
 # [< Prev](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/ifstatements.md) | [Next >]()
