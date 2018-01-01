@@ -14,4 +14,4 @@ t.forward(distance)
 
 Note that in this case, you are both the programmer and the "user," but you can imagine in an actual program it's important for other people to be able to control how the program runs.
 
-# [< Prev](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/variables.md) | [Next >](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/ifstatements.md)
+# [< Prev](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/variables.md) | [Next >](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/example1.md)
