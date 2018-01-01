@@ -2,7 +2,7 @@
 
 Write a program that divides a hypothetical pizza into an number of equally sized slices, like this for 5 slices:
 
-<img src="https://github.com/Kevun1/hillsHacksWorkshop/blob/master/images/pizza1.md" width="360">
+<img src="https://github.com/Kevun1/hillsHacksWorkshop/blob/master/images/pizza1.PNG" width="360">
 
 In other words, take a number from user input. Using turtle, draw that number of lines equally spaced from each other radiating out from the center. It can be thought of as cutting equally sized slices from a pizza. 
 
