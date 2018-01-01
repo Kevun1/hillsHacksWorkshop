@@ -210,4 +210,4 @@ This is a lot of info, but we are going to apply all of it using turtle to do so
 
 ***
 
-# [< Prev](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/README.md) | [Next >](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/forloop.md)
+# [< Prev](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/README.md) | [Next >](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/userinput.md)
