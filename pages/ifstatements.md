@@ -31,6 +31,6 @@ else:
 
 In an *if else statement*, the if condition is evaluated to see if it's true or not. If it is true, whatever inside the if statement is run. Otherwise if the statement is false, it runs whatever is inside the else statement. By putting ther rest of the program in the else statement, it only gets run if `side_length > 200` is false. 
 
-<img src="https://github.com/Kevun1/hillsHacksWorkshop/tree/master/images/ifelse.PNG" width="480">
+<img src="https://github.com/Kevun1/hillsHacksWorkshop/blob/master/images/ifelse.PNG" width="480">
 
 # [< Prev](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/example1.md) | [Next >](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/example2.md)
