@@ -1,6 +1,8 @@
 
 ### The For Loop
 
+Let's revisit our previous example
+
 That seems rather repetitive, doesn't it? Notice that it's just the same bit of code repeated four times. Namely:
 
 ```python
