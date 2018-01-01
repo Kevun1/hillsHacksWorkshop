@@ -1,7 +1,7 @@
 
 ### If statements
 
-Now, let's apply everything we learned so far to create another turtle program. Let's design a program where a user can specify a direction, like north, south, east, or west, and then the turtle draws an arrow in that direction. 
+Let's design a program where a user can specify a direction, like north, south, east, or west, and then the turtle draws an arrow in that direction. 
 
 First, we need to get user input of what direction they want the turtle to draw in. 
 
@@ -29,14 +29,14 @@ if direction == "north":
     t.forward(25)
 ```
 
-So this code translates to: if the `direction` variable (which refers to the user's input) is equal to "north", then run the code below, which draws an arrow facing north. 
+So this code translates to: if the `direction` variable (which refers to the user's input) is equal to `"north"`, then run the code below, which draws an arrow facing north. 
 
 Note that we use two equal signs `==` for equals. This is because one equals sign `=` means variable assignment, when we set a variable equal to some value. It's extremely important that in if statements you use two equals signs, it's a very common mistake to only use one equals sign, which is an error in python. 
 
 Now, we have the north condition settled, we have to account for all the other possible inputs. We can use multiple if statements:
 
 ```python
-if direction == "south":
+elif direction == "south":
     #draw south facing arrow
     t.right(90)
     t.forward(50)
@@ -45,7 +45,8 @@ if direction == "south":
     t.back(25)
     t.left(90)
     t.forward(25)
-if direction == "west":
+elif direction == "west":
+    #draw a west facing arrow
     t.right(180)
     t.forward(50)
     t.left(90 + 45)
@@ -53,7 +54,8 @@ if direction == "west":
     t.back(25)
     t.left(90)
     t.forward(25)
-if direction == "east":
+elif direction == "east":
+    #draw an east facing arrow
     t.forward(50)
     t.left(90 + 45)
     t.forward(25)
@@ -62,7 +64,11 @@ if direction == "east":
     t.forward(25)
 ```
 
-If the user types in "north", "south", "east", and "west", your program will draw the corresponding arrow. But of course, the user might type in something completely random, like "asd0f92041290af". 
-  
+If the user types in `"north"`, `"south"`, `"east"`, and `"west"`, your program will draw the corresponding arrow. But of course, the user might type in something completely random, like `"asd0f92041290af"`. Our program should warn the user that they didn't type in a valid input. So we add a final `else` condition to catch everything else that's not covered by our conditions.
+
+```python
+else:
+    print("Please type in a valid direction")
+```
 
 # [< Prev](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/userinput.md) | [Next >]()
