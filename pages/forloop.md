@@ -1,9 +1,20 @@
 
 ### The For Loop
 
-Let's revisit our previous example
+Let's revisit the square we made at the very beggining.
 
-That seems rather repetitive, doesn't it? Notice that it's just the same bit of code repeated four times. Namely:
+```python
+t.forward(50)
+t.left(90)
+t.forward(50)
+t.left(90)
+t.forward(50)
+t.left(90)
+t.forward(50)
+t.left(90)
+```
+
+Looking at it again, that seems rather repetitive, doesn't it? Notice that it's just the same bit of code repeated four times. Namely:
 
 ```python
 t.forward(50)
@@ -18,8 +29,6 @@ for i in range(4):
     t.left(90)
 ```
 
-*Tell people to follow along and type it out before explaining. Make sure to note the indents (1 tab or 4 spaces) and the colon, or else they'll get a syntax error. IDLE automatically indents for you, but not every editor will do it automatically*
-
 What you just typed was called a **for loop**. Basically, a loop is when a bit of code is repeated multiple times. What you coded basically functions like this:
 
 ```python
@@ -28,9 +37,9 @@ repeat 4 times:
     t.left(90)
 ```
 
-However, instead of repeat 4 times, you have to type `for i in range(4):`
+However, instead of repeat 4 times, you have to type `for i in range(4):` 
 
-*The exact syntax of the for loop will be deconstructed a bit later*
+The for loop is actually more useful than repeating consequtive bits of code. However, we'll get to that a bit later.
 
 So, when do you use a for loop? Whenever you are typing the same code over and over again in a row. 
 
@@ -68,4 +77,3 @@ for i in range(5):
 
 Notice how much longer it would be if you had to write that out five times over. 
 
-The for loop is actually more useful than repeating consequtive bits of code. However, we'll get to that a bit later.
