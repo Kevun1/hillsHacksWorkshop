@@ -142,6 +142,17 @@ print("My number is " + str(some_number))
 
 However, if you are printing a number by itself, like we did earlier when we printed `some_variable`, python automatically converts it to a string.
 
+We can also convert strings to numbers by using `int()` or `float()`
+
+```python
+number1 = "23"
+number2 = "3.5"
+t.forward(int(number1))
+t.forward(float(number2))
+```
+
+`int` can only be used for numbers without decimals (integers), while `float` can be used for numbers with decimals.
+
 *Do some more examples to make sure there is no confusion*
 
 ##### Modifying Variables
@@ -206,7 +217,7 @@ Writing comments can help you keep track of what your code is doing.
 
 ***
 
-This is a lot of info, but we are going to apply all of it using turtle to do some more advanced things than draw simple shapes.
+This is a lot of info, but we are soon going to apply all of it using turtle to do some more advanced things than draw simple shapes.
 
 ***
 
