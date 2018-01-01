@@ -72,4 +72,12 @@ else:
     print("Not a valid direction")
 ```
 
+A quick sidenote:
+
+Note that comparing string equality is case sensitive, so if the user typed in "North", the program would say it's not valid since it's not equal to "north". To fix this, we can change the user input to all lowercase letters, so that uppercase/lowercase doesn't matter. We can use the `lower()` function to do that, like this:
+
+```python
+direction = lower(direction)
+```
+
 # [< Prev](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/ifstatements.md) | [Next >]()
