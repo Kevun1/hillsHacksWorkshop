@@ -78,6 +78,6 @@ else:
     print("One or more of these conditions are false")
 ```
 
-In python, code appears almost exactly like how you would say it in person, and that's what you should remember. This is how you should remember if statements. Try to describe what you are trying to do in english, and often you can translate it pretty easily into code. Whenever you say something like "if this happens, then do this", you should use an if statement. Likewise, if you ever find yourself saying "if this or this happens, then do this" or "if this and this happen, then do this", it's pretty clear what you should do in code.
+In python, code appears almost exactly like how you would say it in person, and that's what you should remember. This is how you should remember if statements. Try to describe what you are trying to do in english, and often you can translate it pretty easily into code. Whenever you say something like "if this happens, then do this", you should use an if statement. Likewise, if you ever find yourself saying "if this or that happens, then do something" or "if this and that both happen, then do something", it's pretty clear what you should do in code.
 
 # [< Prev](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/example1.md) | [Next >](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/example2.md)
