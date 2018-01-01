@@ -47,4 +47,4 @@ Finally, we want to communicate to the user:
 print("A triangle of side length " + str(side_length) + " has been drawn")
 ```
 
-# [< Prev]() | [Next >]()
+# [< Prev](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/userinput.md) | [Next >](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/ifstatements.md)
