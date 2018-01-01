@@ -51,9 +51,33 @@ else:
 
 In between an if and else clause, we can include as many `elif` conditionals as possible, which stand for "else if". 
 
-This program basically reads: if the side length is greater than 200, print an error message. Otherwise, if the side length is less than 20, print an error message. Otherwise, if no above condition is met, then execute the rest of the program.
+This program basically reads: if the side length is greater than 200, print an error message. Otherwise, if the side length is less than 20, print a different error message. Otherwise, if no above condition is met, then execute the rest of the program.
 
 <img src="https://github.com/Kevun1/hillsHacksWorkshop/blob/master/images/ifelif.PNG" width="480">
 
+However, if we didn't have different error messages for the cases where the side length is too big or too small, we would write the code a little bit differently.
+
+```python
+if side_length > 200 or side_length < 20:
+    print("Sorry, the side length is not valid")
+else:
+    #run the rest of the program
+```
+
+Notice that in if statements, we can use phrases like `or`. This basically combines two conditionals into one if statement. If one of the conditions *or* the other one is true, then the inside is executed. This makes sense if two or more conditionals trigger the same code. 
+
+We can also link two conditionals together with `and`, which makes the if statement true only if both are true. While it doesn't apply to this example, this is used in many places. For example, in the console, try:
+
+```python
+x = 5
+y = 10
+
+if x > 2 and y < 12:
+    print("These conditions are both correct")
+else:
+    print("One or more of these conditions are false")
+```
+
+In python, code appears almost exactly like how you would say it in person, and that's what you should remember. This is how you should remember if statements. Try to describe what you are trying to do in english, and often you can translate it pretty easily into code. Whenever you say something like "if this happens, then do this", you should use an if statement. Likewise, if you ever find yourself saying "if this or this happens, then do this" or "if this and this happen, then do this", it's pretty clear what you should do in code.
 
 # [< Prev](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/example1.md) | [Next >](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/example2.md)
