@@ -137,7 +137,7 @@ In regards to printing numbers and strings together, you have to convert numbers
 
 ```python
 some_number = 24
-print("My number is " + str(some_number)
+print("My number is " + str(some_number))
 ```
 
 However, if you are printing a number by itself, like we did earlier when we printed `some_variable`, python automatically converts it to a string.
