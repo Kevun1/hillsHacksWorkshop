@@ -69,4 +69,4 @@ else:
     print("Please type in a valid direction")
 ```
 
-# [< Prev]() | [Next >]()
+# [< Prev](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/ifstatements.md) | [Next >]()
