@@ -66,7 +66,7 @@ else:
 
 Notice that in if statements, we can use phrases like `or`. This basically combines two conditionals into one if statement. If one of the conditions *or* the other one is true, then the inside is executed. This makes sense if two or more conditionals trigger the same code. 
 
-We can also link two conditionals together with `and`, which makes the if statement true only if both are true. While it doesn't apply to this example, this is used in many places. For example, in the console, try:
+We can also link two conditionals together with `and`, which makes the if statement true only if both are true. While it doesn't apply to this example, this is used in many places. For example, create a new file and try this program, tweaking the values of `x` and `y` to understand what it does:
 
 ```python
 x = 5
