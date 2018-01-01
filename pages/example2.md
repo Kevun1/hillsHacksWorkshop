@@ -1,3 +1,4 @@
+### Example 2
 
 Let's design a program where a user can specify a direction, like north, south, east, or west, and then the turtle draws an arrow in that direction. 
 
