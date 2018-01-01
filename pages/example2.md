@@ -80,4 +80,4 @@ Note that comparing string equality is case sensitive, so if the user typed in "
 direction = lower(direction)
 ```
 
-# [< Prev](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/ifstatement.md) | [Next >](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/forloop.md)
+# [< Prev](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/ifstatements.md) | [Next >](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/forloop.md)
