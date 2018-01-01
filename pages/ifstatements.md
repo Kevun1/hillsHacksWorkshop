@@ -33,4 +33,27 @@ In an *if else statement*, the if condition is evaluated to see if it's true or 
 
 <img src="https://github.com/Kevun1/hillsHacksWorkshop/blob/master/images/ifelse.PNG" width="480">
 
+But now say we wanted to add more conditions. For example, what if also added in a rule that said that triangles can have a minimum size of 20? So if the side length is less than 20, it isn't drawn. We can add to if statements to make them take more conditions. 
+
+```python
+if side_length > 200:
+    print("Sorry, the side length is too big")
+elif side_length < 20:
+    print("Sorry, the side length is too small")
+else:
+    # run the rest of the program
+    t.forward(side_length)
+    t.left(120)
+    t.forward(side_length)
+    t.left(120)
+    t.forward(side_length)
+```
+
+In between an if and else clause, we can include as many `elif` conditionals as possible, which stand for "else if". 
+
+This program basically reads: if the side length is greater than 200, print an error message. Otherwise, if the side length is less than 20, print an error message. Otherwise, if no above condition is met, then execute the rest of the program.
+
+<img src="https://github.com/Kevun1/hillsHacksWorkshop/blob/master/images/ifelif.PNG" width="480">
+
+
 # [< Prev](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/example1.md) | [Next >](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/example2.md)
