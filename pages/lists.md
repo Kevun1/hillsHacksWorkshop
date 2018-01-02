@@ -1,4 +1,4 @@
-### Lists
+### Lists (arrays)
 
 Before we go forward, 
 
