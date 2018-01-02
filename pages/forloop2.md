@@ -31,5 +31,38 @@ Let's break this down.
 
 First, I created what in python is known as a *list*. It's like what it sounds like: a list of elements. They are a bunch of things, (whether strings or numbers or anything else) grouped together. A list can be assigned to a variable, can be however long you want, and has a set order. Basically, it's a *sequence of elements*. 
 
+Before, we said the for loop was for repeating code. That's a slight simplification. Actually, a for loop runs code once for each element in a sequence.
+
+```python
+list1 = [1, 2, 3, 4]
+for i in list1:
+    print(i)
+
+for some_variable in ["a", "b", "c"]:
+    print(some_variable)
+    
+list3 = [1, "asdf", 55.4, "random string", -39423]
+for xyz in list3:
+    print(xyz)
+```
+
+A for loop basically goes through each element in a sequence (which can be a list), sets it equal to a variable it keeps track of, and runs its block of code. So in our above example, the for loop repeats the code `print("You have homework in " + subject)` for every element in the list `subjects_with_homework`, which it assigns to the variable `subject`. 
+
+When we did `for i in range(x):`, the `range(x)` is actually a shorthand notation for a sequence of numbers that's `x` numbers long, making the loop repeat `x` times. 
+
+```python
+for i in range(15):
+    print(i)
+```
+
+As you can see, `i` is actually a variable that you can use inside the loop, and it cycles through each element in the `range` every loop. 
+
+
+
+
+
+
+
+
 
 
