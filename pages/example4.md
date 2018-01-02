@@ -14,7 +14,7 @@ Let's say your turtle was hired to build a staircase for a very particular manuf
 from turtle import *
 t = Turtle()
 
-lengths = [1, 4, 2]
+lengths = [25, 90, 166, 50.5, 110, 90, 12, 30, 75, 50]
 
 for length in lengths:
     t.forward(length)
