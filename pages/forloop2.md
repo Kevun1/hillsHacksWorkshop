@@ -57,7 +57,7 @@ for i in range(15):
 
 As you can see, `i` is actually a variable that you can use inside the loop, and it cycles through each element in the `range` every loop. 
 
-
+# [< Prev](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/example3.md) | [Next >](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/example4.md)
 
 
 
