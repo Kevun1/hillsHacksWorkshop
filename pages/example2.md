@@ -4,6 +4,8 @@ Again, let's apply everything we learned to a new problem.
 
 Let's design a program where a user can specify a direction, like north, south, east, or west, and then the turtle draws an arrow in that direction. 
 
+*Give people time to solve on their own. Then explain solution below*
+
 First, we need to get user input of what direction they want the turtle to draw in. 
 
 ```python
