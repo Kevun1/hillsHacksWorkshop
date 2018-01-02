@@ -23,4 +23,4 @@ for i in range(slices):
     t.right(angle)
 ```
 
-# [< Prev](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/forloop.md) | [Next >]()
+# [< Prev](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/forloop.md) | [Next >](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/lists.md)
