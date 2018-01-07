@@ -1,4 +1,4 @@
-### Lists (arrays)
+### More about Lists
 
 Before we go forward, let's understand a bit better how turtle works. You can actually think of the screen that the turtle moves on as a standard coordinate plane, with the starting point of the turtle as the origin.
 
