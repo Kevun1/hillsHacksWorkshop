@@ -48,6 +48,14 @@ for xyz in list3:
 
 A for loop basically goes through each element in a sequence (which can be a list), sets it equal to a variable it keeps track of, and runs its block of code. So in our above example, the for loop repeats the code `print("You have homework in " + subject)` for every element in the list `subjects_with_homework`, which it assigns to the variable `subject`. 
 
+```python
+numbers_to_add = [4, 3, 7, 4]
+total = 0
+for n in numbers_to_add:
+    total += n
+ print(n)
+ ```
+
 When we did `for i in range(x):`, the `range(x)` is actually a shorthand notation for a sequence of numbers that's `x` numbers long, making the loop repeat `x` times. 
 
 ```python
