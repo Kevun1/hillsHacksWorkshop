@@ -223,4 +223,10 @@ draw_triangle()
 
 Now, our code is much better organized and there is minimal repetition. 
 
-# [< Prev](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/example4%20part4.md) | [Next >]()
+We've actually been using functions all the time. For example, `t.forward()` or `t.penup()`. You can tell whether something is a function by whether it has parenthesis or not. One way to think about functions is that they are like variables but instead of standing in for a value, they stand in for a bit of code. After you define a function, you can call it anywhere; when this happens, it's like copy and pasting its definition into where you call it, so that you don't need to retype everything. 
+
+Like variables, defining functions can help you organize your code and keep things in one place. With our latest example, if we wanted to make it so that moving on to the next shape doesn't raise the pen, for example, we just edit the `move_to_next_shape()` definition instead of having to make edits everywhere in the code. 
+
+Note that variables and functions are very different concepts and have different uses, so don't think of them as equivalent, but for the purpose of organizing your code it is a good comparison to make. 
+
+# [< Prev](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/example4%20part4.md) | [Next >](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/morefunctions.md)
