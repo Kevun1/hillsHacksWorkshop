@@ -2,6 +2,7 @@
 
 Now, draw this:
 
+<img src="https://github.com/Kevun1/hillsHacksWorkshop/blob/master/images/threesquares.PNG" width="480">
 
 Recall that drawing a square is like this:
 
@@ -34,7 +35,7 @@ Note that we have to use a different variable in the inner loop because it's tak
 
 Now try drawing this:
 
-
+<img src="https://github.com/Kevun1/hillsHacksWorkshop/blob/master/images/squaretrianglepattern1.PNG" width="480">
 
 Again, the solution is to use nested for loops, but this time, there are two for loops inside the overall one, one for the square, and one for the triangel.
 
@@ -73,6 +74,7 @@ Notice that we can use `j` for both the square and the triangle loops, because t
 
 Let's add a subtle change to the pattern we want to draw:
 
+<img src="https://github.com/Kevun1/hillsHacksWorkshop/blob/master/images/squaretrianglepattern2.PNG" width="480">
 
 Now what do we do? Try using a for loop.
 
