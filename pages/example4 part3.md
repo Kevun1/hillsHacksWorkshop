@@ -10,6 +10,12 @@ Solution:
 from turtle import *
 t = Turtle()
 
+t.penup()
+t.back(300)
+t.right(90)
+t.forward(300)
+t.pendown()
+
 intput_vales = input("Enter staircase lengths: ")
 lengths = intput_vales.split(" ")
 
