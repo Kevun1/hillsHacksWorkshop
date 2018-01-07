@@ -134,4 +134,57 @@ t.forward(25)
 
 Note: there are even more ways to have draw this arrow. This was just one possible solution
 
+### Pen down/up
+
+Say you wanted to draw something like this:
+
+<img src="https://github.com/Kevun1/hillsHacksWorkshop/blob/master/images/penupexample.PNG" width="360">
+
+The line is discontinuous, so how can we draw that? Well, think of the turtle as holding a pen as it walks around the screen, which is a canvas. Normally, it has the pen pressed downwards onto the canvas, and so as it walks around, it leaves a line behind. This is what's been happening so far. 
+
+However, you can tell the turtle to put it's pen up, so that when it walks around, it doesn't leave behind any marks. You can do that by saying `t.penup()`. Try this:
+
+```python
+t.forward(50)
+t.penup()
+t.forward(50)
+```
+
+Notice that it didn't leave behind lines when it moved after you told it to put its pen up. However, if you want the turtle to resume drawing again, you have to tell it to put it's pen down again, with `t.pendown()`
+
+```python
+t.forward(50)
+t.penup()
+t.forward(50)
+t.pendown()
+t.forward(50)
+```
+
+Now, we can draw the two disjoint squares:
+
+```python
+t.forward(50)
+t.left(90)
+t.forward(50)
+t.left(90)
+t.forward(50)
+t.left(90)
+t.forward(50)
+t.left(90)
+
+t.penup()
+t.left(90)
+t.forward(100)
+t.pendown()
+
+t.forward(50)
+t.left(90)
+t.forward(50)
+t.left(90)
+t.forward(50)
+t.left(90)
+t.forward(50)
+t.left(90)
+```
+
 # [Next >](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/variables.md)
