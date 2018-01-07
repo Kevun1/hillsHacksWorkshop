@@ -22,3 +22,5 @@ for length in lengths:
     t.forward(50)
     t.right(90)
 ```
+
+# [< Prev](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/forloop2.md) | [Next >](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/example4 part2.md)
