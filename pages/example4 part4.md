@@ -49,4 +49,4 @@ for length in lengths:
 print("The staircase costs $" + str(cost))
 ```
 
-# [< Prev](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/example4%20part3.md)
+# [< Prev](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/example4%20part3.md) | [Next >](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/functions.md)
