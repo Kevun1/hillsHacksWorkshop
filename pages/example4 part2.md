@@ -18,11 +18,27 @@ Now that we have the list of step lengths, the rest of the code looks exactly th
 
 The problem is that when the string is split into the list, it doesn't convert each element into numbers. You can't call .forward() with a string.
 
-The solution is to convert elements into a number before moving the turtle, with `float()`. The final code looks like:
+The solution is to convert elements into a number before moving the turtle, with `float()`. The for loop becomes:
+```python
+for length in lengths:
+    length = float(length)
+    t.forward(length)
+    t.left(90)
+    t.forward(30)
+    t.right(90)
+```
+
+As a little bonus, we should also really start our staircases in the bottom left corner of the screen, because otherwise it's really easy for longer staircases to go off the screen. So at the beginning, we can call `penup()` and travel to the bottom left before starting. The final code becomes:
 
 ```python
 from turtle import *
 t = Turtle()
+
+t.penup()
+t.back(300)
+t.right(90)
+t.forward(300)
+t.pendown()
 
 intput_vales = input("Enter staircase lengths: ")
 lengths = intput_vales.split(" ")
