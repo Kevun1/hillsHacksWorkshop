@@ -229,4 +229,4 @@ Like variables, defining functions can help you organize your code and keep thin
 
 Note that variables and functions are very different concepts and have different uses, so don't think of them as equivalent, but for the purpose of organizing your code it is a good comparison to make. 
 
-# [< Prev](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/example4%20part4.md) | [Next >](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/morefunctions.md)
+# [< Prev](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/example4%20part4.md) | [Next >](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/functions2.md)
