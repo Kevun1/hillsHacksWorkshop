@@ -4,4 +4,4 @@ Now, we're pretty much done with learning new programming concepts. There's stil
 
 TILTED SQUARES EXAMPLE
 
-# [< Prev](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/example5.md) | [Next >]
+# [< Prev](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/example5.md) | [Next >](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/connectiontoedtech.md)
