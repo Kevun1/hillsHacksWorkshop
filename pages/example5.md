@@ -6,7 +6,7 @@ The input will be a sequence of words, either "square" or "triangle", and then t
 
 So, for example, if the input was "square triangle triangle triangle square triangle square square", the turtle should draw this:
 
-
+<img src="https://github.com/Kevun1/hillsHacksWorkshop/blob/master/images/squaretrianglepattern4.PNG" width="480">
 
 There are two main ways to go about doing this. The first, which is what most of you likely have done, is like this:
 
