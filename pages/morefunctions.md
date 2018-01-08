@@ -2,7 +2,7 @@
 
 Now, what if we wanted to draw the same shape pattern as before, but have each shape be a different size? Let's say, in order, the side lengths of the shapes are 50, 100, 75, 150, 50, and 25.
 
-<img src="" width="480">
+<img src="https://github.com/Kevun1/hillsHacksWorkshop/blob/master/images/squaretrianglepattern3.PNG" width="480">
 
 We can't use the functions we defined earlier anymore, since now we're not repeating the exact same code anymore. What we could do is change the `side_length` variable before every function call, but that would get pretty messy.
 
