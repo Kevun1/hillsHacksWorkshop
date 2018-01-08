@@ -52,4 +52,4 @@ draw_triangle(25)
 
 Imagine if we didn't have functions, we would have to write out everything using only turtle commands and it would be very unorganized.
 
-# [< Prev](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/functions.md) | [Next >]()
+# [< Prev](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/functions.md) | [Next >](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/functions3.md)
