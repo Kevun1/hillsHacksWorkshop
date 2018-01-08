@@ -209,15 +209,15 @@ def move_to_next_shape():
 # Draw two squares
 for i in range(2):
     draw_square()
-    t.move_to_next_shape()
+    move_to_next_shape()
     
 # Draw two triangles
 for i in range(2):
     draw_triangle()
-    t.move_to_next_shape()
+    move_to_next_shape()
     
 draw_square()
-t.move_to_next_shape()    
+move_to_next_shape()    
 draw_triangle()
 ```
 
