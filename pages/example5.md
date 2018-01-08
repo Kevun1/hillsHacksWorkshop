@@ -105,4 +105,4 @@ for shape in pattern:
 
 This does the exact same thing, but instead of doing the stuff in the for loop, it replaces it with a function. Now, for this example, there is no need to define another function, since we only that bit of code once. But, when writing a longer program, you might need to do reuse a bit of code again, and drawing a shape based on a string seems like something that would come in handy if I was creating a more complicated drawing. 
 
-# [< Prev](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/functions2.md) | [Next >](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/example4%20revisited.md)
+# [< Prev](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/functions2.md) | [Next >](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/challenge.md)
