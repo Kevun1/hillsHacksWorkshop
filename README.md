@@ -2,13 +2,12 @@
 
 *This document is for mentors conducting the workshop.*
 
-*Regular/bold text is what you tell people, italicized text are notes to yourself.*
-
 ### Introduction
 
-Introduce yourself, say this workshop is for beginners who have little or no experience with computer programming.
+This workshop is for beginners who have little or no experience with computer programming.
 
 What is programming
+
 
 What you'll learn in this workshop
 
@@ -66,7 +65,7 @@ Show examples of commands
 
 `right(angle)` turns the turtle right by `angle`.
 
-*Note, these are with respect to the turtle's original facing direction*
+Note, these are with respect to the turtle's original facing direction
 
 Show examples of commands
 
@@ -79,8 +78,6 @@ This seems pretty simple so far, but from these basic commands -------
 Make a staircase, like this:
 
 <img src="https://github.com/Kevun1/hillsHacksWorkshop/blob/master/images/staircase.PNG" width="360">
-
-*\(show the image to everyone)*
 
 The solution is:
 
@@ -95,8 +92,7 @@ t.right(90)
 t.forward(50)
 ```
 
-*Note: The 50 is the length of each segment, which can be replaced with any number*
-
+Note: The 50 is the length of each segment, which can be replaced with any number
 
 Now, make a square, like this (make sure to do `t.reset()`!):
 
@@ -186,5 +182,7 @@ t.left(90)
 t.forward(50)
 t.left(90)
 ```
+
+*Example, draw a complex shape, like the first letter of your name, or a house*
 
 # [Next >](https://github.com/Kevun1/hillsHacksWorkshop/blob/master/pages/variables.md)
